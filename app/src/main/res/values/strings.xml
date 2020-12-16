@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">zapchastochki</string>
+
+    <string name="text_label_1">catalog</string>
+    <string name="text_label_2">basket</string>
+    <string name="text_label_3">you</string>
+    <string name="text_label_4">orders</string>
+
+    <string name="title_catalog">catalog</string>
+    <string name="title_basket">basket</string>
+    <string name="title_profile">profile</string>
+    <string name="title_orders">orders</string>
+
+    <string name="admin_detail_catalog">admin detail catalog</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

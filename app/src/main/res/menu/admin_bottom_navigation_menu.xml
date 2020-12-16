@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/admin_navigation_catalog"
+        android:enabled="true"
+        android:title="@string/title_catalog"/>
+    <item
+        android:id="@+id/admin_navigation_orders"
+        android:enabled="true"
+        android:title="@string/title_orders"/>
+</menu>

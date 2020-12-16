@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/marginbtv"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_profile_id"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/et_profile_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/et_profile_id"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_marginBottom="40dp"
+        android:id="@+id/et_profile_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/et_profile_username"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/lb_profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="@color/white"
+        android:layout_below="@+id/et_profile_password"
+        android:hint="name">
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/lb_profile_mibile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="@color/white"
+        android:layout_below="@+id/lb_profile_name"
+        android:hint="mobile">
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_profile_mibile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save changes"
+        android:id="@+id/b_profile_save_changes"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/lb_profile_mibile"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="adminOK"
+        android:id="@+id/toAdmin"
+        android:visibility="invisible"
+        android:layout_below="@+id/b_profile_save_changes"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sync"
+        android:id="@+id/b_sync"
+        android:visibility="invisible"
+        android:layout_below="@+id/toAdmin"
+        />
+</RelativeLayout>

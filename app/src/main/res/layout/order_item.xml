@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="6dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="t_id"
+            android:id="@+id/t_id"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:layout_marginHorizontal="@dimen/marginbtv"
+            android:layout_toRightOf="@+id/t_id"
+            android:id="@+id/pow1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="t_idCustomer"
+            android:layout_toRightOf="@+id/pow1"
+            android:id="@+id/t_idCustomer"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="t_name"
+            android:layout_below="@+id/t_id"
+            android:id="@+id/t_name"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="t_date"
+            android:layout_below="@+id/t_name"
+            android:id="@+id/t_date"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:layout_marginHorizontal="@dimen/marginbtv"
+            android:layout_toRightOf="@+id/t_date"
+            android:layout_below="@+id/t_name"
+            android:id="@+id/pow2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/pow2"
+            android:text="t_complitionDate"
+            android:layout_below="@+id/t_name"
+            android:id="@+id/t_complitionDate"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="t_total_price"
+            android:layout_below="@+id/t_date"
+            android:id="@+id/t_total_price"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:layout_marginHorizontal="@dimen/marginbtv"
+            android:layout_toRightOf="@+id/t_total_price"
+            android:layout_below="@+id/t_date"
+            android:id="@+id/pow3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="t_amount"
+            android:layout_below="@+id/t_date"
+            android:layout_toRightOf="@+id/pow3"
+            android:id="@+id/t_amount"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="t_status"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/t_status"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
